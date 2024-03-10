@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Lora&display=swap");
+
+:root {
+    --primary-color: #F72585;
+    --secondary-color: #7209B7;
+    --accent1-color: #3A0CA3;
+    --accent2-color: #4361EE;
+
+    --ff-heading: 'Lora', serif;
+    --ff-paragraph: 'Montserrat', serif;
+
+    --nav-bg-col: var(--primary-color);
+    --nav-link-col: var(--secondary-color);
+    --nav-hover-link-col: var(--accent1-color);
+    --nav-hover-bg-col: var(--accent2-color);
+
+
+}
+body {
+    font-family: var(--ff-paragraph);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-heading);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-bg-col);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-col);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-col);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-col);
+    background-color: var(--nav-hover-bg-col);
+}
+
+
