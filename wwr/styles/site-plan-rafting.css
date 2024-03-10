@@ -6,24 +6,24 @@
     --accent1-color: #3A0CA3;
     --accent2-color: #4361EE;
 
-    --ff-heading: 'Lora', serif;
-    --ff-paragraph: 'Montserrat', serif;
+    --heading-font: 'Lora', serif;
+    --paragraph-font: 'Montserrat', serif;
 
-    --nav-bg-col: var(--primary-color);
-    --nav-link-col: var(--secondary-color);
-    --nav-hover-link-col: var(--accent1-color);
-    --nav-hover-bg-col: var(--accent2-color);
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--accent2-color);
 
 
 }
 body {
-    font-family: var(--ff-paragraph);
+    font-family: --paragraph-font;
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3 {
-    font-family: var(--ff-heading);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -37,25 +37,25 @@ p {
 }
 
 nav {
-    background-color: var(--nav-bg-col);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--nav-link-col);
+    color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-col);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-col);
-    background-color: var(--nav-hover-bg-col);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 
