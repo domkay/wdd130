@@ -9,10 +9,10 @@
     --heading-font: 'Lora', serif;
     --paragraph-font: 'Montserrat', serif;
 
-    --nav-background-color: #F72585;
-    --nav-link-color: #7209B7;
-    --nav-hover-link-color: #3A0CA3;
-    --nav-hover-background-color: #4361EE;
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--accent2-color);
 
 
 }
