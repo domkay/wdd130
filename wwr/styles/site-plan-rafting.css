@@ -58,4 +58,26 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+primary {
+    color: var(--primary-color);
+}
 
+secondary {
+    color: var(--secondary-color);
+}
+
+accent1 {
+    color: var(--accent1-color);
+}
+
+accent2 {
+    color: var(--accent2-color);
+}
+
+font1 {
+    font-family: var(--heading-font);
+}
+
+font2 {
+    font-family: var(--heading-font);
+}
