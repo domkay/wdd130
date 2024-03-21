@@ -58,26 +58,30 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-primary {
-    color: var(--primary-color);
+.primary {
+    background-color: var(--primary-color);
+    /*color: var(--primary-color);*/
 }
 
-secondary {
-    color: var(--secondary-color);
+.secondary {
+    background-color: var(--secondary-color);
+    /*color: var(--secondary-color);*/
 }
 
-accent1 {
-    color: var(--accent1-color);
+.accent1 {
+    background-color: var(--accent1-color);
+    /*color: var(--accent1-color);*/
 }
 
-accent2 {
-    color: var(--accent2-color);
+.accent2 {
+    background-color: var(--accent2-color);
+    /*color: var(--accent2-color);*/
 }
 
-font1 {
+.font1 {
     font-family: var(--heading-font);
 }
 
-font2 {
-    font-family: var(--heading-font);
+.font2 {
+    font-family: var(--paragraph-font);
 }
