@@ -15,20 +15,11 @@
     --nav-hover-background-color: var(--accent2-color);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--paragraph-font);
+    max-width: 100%;
+    padding: 20px;
 }
-
-section {
-    margin-bottom: 20px;
-}
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -39,32 +30,27 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration: none;
 }
+p {
+    padding: 25px;
+}
 
 .hero {
     position: relative;
 }
 .hero img {
-    /* position: absolute;
+    position: absolute;
     display: block;
     width: 100%;
-    height: auto; */
-    /* content: ''; */
-    position: absolute;
-/*     inset: 0;
-    z-index: -1; */
-    /* opacity: .4;
-    background: pink;
-    background-image: url(https://source.unsplash.com/VWcPlbHglYc);
-    background-size: cover;
-    background-position: center; */
+    height: 50rem;
 }
 
 .hero h1 {
     color: whitesmoke;
     position: absolute;
-    width: 100%;
-    padding: 1.5%;
+    width: 98%;
+    padding: 1%;
     margin-top: 3%;
+    text-align: center;
     background-color: rgba(0,0,0,0.25);
     
 }
@@ -85,3 +71,6 @@ a {
     width: 20%;
     height: auto;
 }
+/* section {
+    position: absolute;
+} */
