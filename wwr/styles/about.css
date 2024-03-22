@@ -31,7 +31,7 @@ a {
 }
 p {
     padding: 25px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero {
