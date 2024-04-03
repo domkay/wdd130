@@ -174,7 +174,7 @@ footer nav a {
     text-decoration: none;
 }
 .map {
-  border: 2px solid blue;
+  border: 2px solid var(--nav-link-color);
   width: 90%;
   height: auto;
 }
@@ -201,15 +201,6 @@ footer nav a {
   margin: 10px;
 }
 
-input[type="submit"] {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-  background-color: #007bff;
-  width: 100px;
-  height: 2em;
-  color: #fff;
-  border: none;
-}
 
 form {
   display: block;
@@ -237,9 +228,7 @@ input[type="email"]{
 }
 
 textarea,
-select,
-/* input[type="email"], */
-input[type="submit"] {
+select {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
@@ -251,12 +240,17 @@ textarea {
   height: 100px;
 }
 
-input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-}
-
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+
+input[type="submit"] {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  background-color: #007bff;
+  width: 100px;
+  height: 2em;
+  color: #fff;
+  border: none;
 }
