@@ -50,10 +50,10 @@
                 </figure>
             </section>
             <section class="contactform">
-                <form>
+                <!-- <form>
                     <fieldset>
-                        <!-- <legend>User Information</legend> -->
-                        <label for="username">Username</label>
+                         <legend>User Information</legend> -->
+                        <!--<label for="username">Username</label>
                         <input type="text" id="username" name="username">
 
                         <label for="emailaddress">Email</label>
@@ -72,6 +72,31 @@
                         <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
                     </fieldset>
                     <input type="submit" value="Send"/>
+                </form> -->
+                <form>
+                    <fieldset class="contact">
+                        <legend>Contact's Information</legend>
+                        <label for="username">Name:</label>
+                        <input type="text" id="username" name="username">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </fieldset>
+                    <fieldset class="interest">
+                        <legend>Interest</legend>
+                        <label for="general-inquiry">General Inquiry</label>
+                        <input type="radio" id="general-inquiry" name="options" value="general-inquiry" checked>
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="options" value="reservation">
+                        <label for="option3">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="options" value="suggestion">
+                     
+                        <label for="feedback">List the places you have lived in:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Mali"></textarea>
+
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </fieldset>
+                    <button type="submit">Send inquiry</button>
                 </form>
             </section>
         </main>
