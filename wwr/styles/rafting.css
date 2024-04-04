@@ -154,6 +154,7 @@ figcaption {
 }
 
 footer {
+  width: 90%;
     display: grid;
     grid-template-columns: repeat(5, 20%);
     align-items: center;
