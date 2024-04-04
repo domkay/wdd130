@@ -207,7 +207,7 @@ form {
 }
 
 fieldset {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 25px;
   border-radius: 5px;
 }
@@ -241,7 +241,7 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   font-family: var(--heading-font);
   color: var(--primary-color);
   background-color: #007bff;
