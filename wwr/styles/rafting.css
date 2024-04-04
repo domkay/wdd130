@@ -210,6 +210,9 @@ fieldset {
   margin-bottom: 15px;
   padding: 25px;
   border-radius: 5px;
+  border: 2px solid var(--nav-link-color);
+  width: 90%;
+  height: auto;
 }
 
 label {
@@ -234,17 +237,14 @@ textarea {
   border-radius: 3px;
 }
 
-
-
-
-input[type="submit"]:hover {
-  background-color: #0056b3;
+button[type="submit"]:hover {
+  background-color: var(--accent2-color);
 }
 
 button[type="submit"] {
   font-family: var(--heading-font);
   color: var(--primary-color);
-  background-color: #007bff;
+  background-color: var(--accent2-color);
   width: 100px;
   height: 2em;
   color: #fff;
