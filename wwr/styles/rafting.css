@@ -347,12 +347,14 @@ th {
 .newsletterindex button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #0000ee;
   color: white;
   border: none;
   cursor: pointer;
   display: block;
   margin: 0 auto;
+
+  
 }
 
 .newsletterindex button:hover {
