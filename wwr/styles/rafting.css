@@ -251,3 +251,156 @@ button[type="submit"] {
   color: #fff;
   border: none;
 }
+
+.destinations {
+  display: block;
+}
+
+.desttitre{
+  text-align: center;
+}
+
+
+/* trips*/
+
+.destniv1 {
+  display: flex;
+  height: 30rem;
+}
+
+.destniv2 {
+  flex: 1;
+}
+
+.destimage {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.destniv2 figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.destniv2 figure figcaption {
+  margin-top: 10px;
+}
+
+.tripoverview {
+  text-align: left;
+}
+.destniv2 p {
+  padding: 0px;
+}
+
+.tabledestination {
+  margin: 0 auto;
+  width: 80%;
+} 
+.tabledestination h2{
+  float: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Index */
+.newsletterindex {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletterindex form {
+  width: 50%;
+}
+
+.newsletterindex  fieldset {
+  margin: 20px;
+  padding: 20px;
+}
+
+.newsletterindex label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.newsletterindex input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.newsletterindex button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletterindex button:hover {
+  background-color: #0056b3;
+}
+
+.fullimage {
+  position: relative;
+}
+
+.fullimage img {
+  width: 100%;
+  height: auto;
+}
+
+.fullimage h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+
+.fullimage p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+}
+
+/*Columns */
+.offers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.offers img {
+  width: 100%;
+  height: auto;
+}
+
+.offers p {
+  margin-top: 10px;
+}

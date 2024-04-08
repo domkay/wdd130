@@ -1,0 +1,29 @@
+:root{
+    --swiper-navigation-size:44px;
+    --swiper-theme-color: #007aff;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background-color: #fff;
+
+font: 12px Work Sans, sans-serif;
+overflow-x: hidden;
+margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+*::before , ::after{
+
+}
+
+body {
+    display: block;
+}
+
