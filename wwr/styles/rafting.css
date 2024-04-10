@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -289,12 +289,17 @@ figcaption {
   margin-top: 10px;
 }
 
-.tripoverview {
-  text-align: left;
-}
 .destniv2 p {
   padding: 0px;
 }
+
+.destniv2 h4{
+  color:var(--secondary-color);
+}
+.tripoverview {
+  text-align: left;
+}
+
 
 .tabledestination {
   margin: 0 auto;
